@@ -1,0 +1,11 @@
+name: Generate test report
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "test"
